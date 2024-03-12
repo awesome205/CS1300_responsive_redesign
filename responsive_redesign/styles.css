@@ -1,0 +1,509 @@
+body,
+html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+.koulen-regular {
+  font-family: "Koulen", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.almendra-sc-regular {
+  font-family: "Almendra SC", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.abeezee-regular {
+  font-family: "ABeeZee", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.abeezee-regular-italic {
+  font-family: "ABeeZee", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+.background-image {
+  /* Assuming the image is uploaded to a server and the link is provided */
+  background-image: url("./static/olga-ga-8uabPZmXJ4s-unsplash.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  color: white;
+}
+.logo {
+  font-size: 2.5vh;
+}
+.logoimg {
+  width: 6vh;
+  height: 6vh;
+  margin-right: 5px;
+}
+.svg-icon {
+  width: 2.5vh;
+  height: 2.5vh;
+}
+.navbar {
+  /* padding: 20px; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+.navbardiv {
+  display: flex;
+  align-items: center;
+  margin-left: 16px;
+}
+.navitems {
+  display: flex;
+  align-items: center;
+  margin-left: 24px;
+  font-size: 2vh;
+}
+.navbar a {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+}
+.navbar a:hover {
+  color: #ffd700;
+}
+.content {
+  position: absolute;
+  top: 50%;
+  left: 75%;
+  transform: translate(-50%, -50%);
+  text-align: left;
+}
+.headline {
+  font-size: 6.75vh;
+  margin-bottom: 0.2em;
+  line-height: 1.2;
+}
+.subheadline {
+  font-size: 2.5vh;
+  margin-bottom: 1vh;
+}
+::placeholder {
+  color: #ffffff;
+  opacity: 1;
+}
+.search-bar {
+  width: 90%;
+  padding: 1vh;
+  font-size: 2vh;
+  margin: auto;
+  border: 2px solid #ffffff;
+  border-radius: 40px;
+  text-align: left;
+  color: #ffffff;
+  opacity: 0.7;
+  background: url("./static/searchicon.png") no-repeat 98%;
+  background-size: 3.5vh;
+  padding-right: 28px;
+  display: inline-block;
+  vertical-align: middle;
+}
+.header2 {
+  font-size: 5.5vh;
+  /* margin-bottom: 1vh; */
+  text-align: center;
+  /* padding-bottom: 1vh; */
+}
+.secondsection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #f5fbfa;
+}
+.map iframe {
+  width: 120vh;
+  height: 90vh;
+  border: 0;
+}
+.map {
+  margin-bottom: 15px;
+  padding: 20px;
+}
+.sectionthree {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #f5fbfa;
+  /* margin: 10px; */
+  margin-top: 10px;
+  width: 100%;
+}
+.cardsection {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+  gap: 30px;
+  /* gap-row: 10px; */
+}
+.card {
+  background-color: #0592ca;
+  width: 24vw;
+  height: 12vw;
+  border-radius: 10px;
+  flex-basis: 25%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.card:hover {
+  background-color: #004882;
+  cursor: pointer;
+}
+.circle {
+  background-color: #ffffff;
+  width: 5vw;
+  height: 5vw;
+  border-radius: 50%;
+  left: 42%;
+  position: relative;
+  top: -2vw;
+}
+.icon {
+  position: relative;
+  top: 50%;
+  left: 75%;
+  transform: translate(-50%, -50%);
+}
+.iconsize {
+  width: 5.5vh;
+  height: 5.5vh;
+}
+.cardtitle {
+  font-size: 1.5vw;
+  margin-top: 0.5em;
+  text-align: center;
+  color: #ffffff;
+}
+.carddescription {
+  font-size: 1vw;
+  margin-bottom: 0.5em;
+  text-align: center;
+  color: #ffffff;
+  padding-left: 0.4em;
+  padding-right: 0.4em;
+}
+.cardtext {
+  /* top: 10%; */
+  transform: translate(0, -25%);
+}
+.phototext {
+  margin-top: 0.5em;
+  text-align: center;
+  color: #000000;
+  margin-bottom: 0.5em;
+  padding-top: 2em;
+  font-size: 2.5vh;
+}
+.footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #002046;
+  color: #ffffff;
+  padding: 20px;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+.footercontent {
+  display: flex;
+  margin: 10px;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+.footernavbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px;
+  margin-left: 10px;
+}
+.footernavbar a {
+  color: white;
+  text-decoration: none;
+  margin: 0 7px;
+  font-size: 1vw;
+}
+.footertext {
+  font-size: 1vw;
+  margin: 0;
+  padding: 10px;
+  margin-right: 10px;
+}
+.footertext a {
+  color: #ffd700;
+  text-decoration: underline;
+}
+.footerline {
+  width: 95vw;
+  height: 1px;
+  background-color: #ffffff;
+  margin: 10px;
+  margin-bottom: 20px;
+}
+.footerlinediv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  flex-direction: column;
+}
+.footerlinecontenttext {
+  text-align: center;
+  font-size: 1vw;
+}
+
+@media (max-width: 769px) {
+  .content {
+    top: 50%;
+    left: 65%;
+    transform: translate(-50%, -50%);
+  }
+  .navbardiv {
+    margin: 10px;
+  }
+  .navitems {
+    margin: 10px;
+    font-size: 1.7vh;
+  }
+  .headline {
+    font-size: 5vh;
+  }
+  .subheadline {
+    font-size: 2vh;
+  }
+  .search-bar {
+    font-size: 1.5vh;
+  }
+  .header2 {
+    font-size: 4vh;
+  }
+  .iconsize {
+    width: 2.5vh;
+    height: 2.5vh;
+  }
+  .icon {
+    position: relative;
+    top: 50%;
+    left: 65%;
+    transform: translate(-50%, -50%);
+  }
+  .map iframe {
+    width: 90vw;
+    height: 60vh;
+  }
+  .cardsection {
+    gap: 10px;
+  }
+  .card {
+    width: 45vw;
+    height: 22.5vw;
+  }
+  .cardtitle {
+    font-size: 2.5vw;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+  }
+  .carddescription {
+    font-size: 1.5vw;
+  }
+  .phototext {
+    font-size: 2vh;
+  }
+  .footercontent {
+    flex-direction: column;
+    text-align: center;
+  }
+  .footernavbar {
+    margin: 10px;
+  }
+  .footernavbar a {
+    font-size: 1.5vh;
+  }
+  .footertext {
+    font-size: 1.5vh;
+  }
+  .footerline {
+    width: 90vw;
+  }
+  .footerlinediv {
+    margin: 10px;
+  }
+  .footerlinecontenttext {
+    font-size: 1.5vh;
+  }
+}
+@media (max-width: 495px) {
+  html,
+  body {
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+  .background-image {
+    width: 100%;
+    height: 100vh; /* Using viewport height to ensure full height coverage */
+    background-position: center center; /* Center the image properly */
+    background-repeat: no-repeat;
+    background-size: cover; /* Ensure it covers the full area without stretching */
+    position: relative;
+    background-attachment: fixed;
+  }
+  .content {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  .search-bar {
+    width: 80%;
+    font-size: 2vh;
+  }
+  .navbardiv {
+    margin: 10px;
+  }
+  .navitems {
+    margin: 10px;
+    font-size: 1.5vh;
+    margin-left: 1px;
+    left: -100%;
+    transform: translate(-45%, -25%);
+  }
+  .navitems a {
+    font-size: 1.5vh;
+    visibility: hidden;
+  }
+  .svg-icon {
+    width: 4vh;
+    height: 4vh;
+    visibility: visible;
+  }
+  .headline {
+    font-size: 6vh;
+    padding-top: 2vh;
+  }
+  .subheadline {
+    font-size: 3vh;
+  }
+  .header2 {
+    font-size: 3.5vh;
+  }
+  .iconsize {
+    width: 2vh;
+    height: 2vh;
+  }
+  .icon {
+    position: relative;
+    top: 50%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+  }
+  .map iframe {
+    width: 90vw;
+    height: 60vh;
+  }
+  .cardsection {
+    gap: 10px;
+    flex-direction: column;
+  }
+  .card {
+    width: 90vw;
+    height: 90vw;
+  }
+
+  .card:hover {
+    background-color: #004882;
+    cursor: pointer;
+  }
+  .circle {
+    background-color: #ffffff;
+    width: 12vw;
+    height: 12vw;
+    border-radius: 50%;
+    left: 45%;
+    position: relative;
+    top: -4vw;
+  }
+  .icon {
+    position: relative;
+    top: 53%;
+    left: 67%;
+    transform: translate(-50%, -50%);
+  }
+  .iconsize {
+    width: 4.5vh;
+    height: 4.5vh;
+  }
+  .cardtext {
+    /* top: 10%; */
+    transform: translate(0, -25%);
+  }
+  .phototext {
+    margin-top: 0.5em;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 0.5em;
+    padding-top: 2em;
+    font-size: 2.5vh;
+  }
+  .cardtitle {
+    font-size: 4vh;
+    /* padding-top: 0.5em; */
+    padding-bottom: 0.5em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    margin-top: 0px;
+  }
+  .carddescription {
+    font-size: 2vh;
+  }
+  .phototext {
+    font-size: 2.5vh;
+    padding-top: 0px;
+    margin-top: 0px;
+  }
+  .footercontent {
+    flex-direction: column;
+    text-align: center;
+  }
+  .footernavbar {
+    margin: 10px;
+    transform: translate(-5%, 0%);
+  }
+  .footernavbar a {
+    font-size: 1.5vh;
+  }
+  .footertext {
+    font-size: 2.5vh;
+  }
+  .footerline {
+    width: 90vw;
+  }
+  .footerlinediv {
+    margin: 10px;
+  }
+  .footerlinecontenttext {
+    font-size: 2vh;
+  }
+}
