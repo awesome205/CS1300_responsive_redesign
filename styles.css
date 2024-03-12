@@ -159,15 +159,15 @@ html {
   /* gap-row: 10px; */
 }
 .card {
-  background-color: #0592ca;
+  background-color: #004882;
   width: 24vw;
   height: 12vw;
   border-radius: 10px;
   flex-basis: 25%;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
 }
 .card:hover {
-  background-color: #004882;
+  background-color: #002046;
   cursor: pointer;
 }
 .circle {
